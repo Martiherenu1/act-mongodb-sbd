@@ -9,7 +9,8 @@ const pedidoSchema = new mongoose.Schema({
 
     precio: {
         type: Number,
-        required: true
+        required: true,
+        min: 0
     },
 
     cliente: {
