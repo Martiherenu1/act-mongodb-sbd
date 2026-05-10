@@ -1,0 +1,26 @@
+{
+  "name": "act-mongodb-sbd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martiherenu1/act-mongodb-sbd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martiherenu1/act-mongodb-sbd/issues"
+  },
+  "homepage": "https://github.com/Martiherenu1/act-mongodb-sbd#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14"
+  }
+}
